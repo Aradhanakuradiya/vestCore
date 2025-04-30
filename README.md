@@ -42,17 +42,19 @@ Installation and Setup
 
 ### Clone the Repo:
 -git clone https://github.com/your-user-name/vestCore.git
+#
 - cd vestCore
 
 ### Backend Setup
 1. cd backend
 2. npm install
 3. Create a .env file in the backend directory.
+#
 PORT=3002
-MONGO_URI=your-mongodb-connection
-TOKEN_KEY=your-secret-key
+# MONGO_URI=your-mongodb-connection
+# TOKEN_KEY=your-secret-key
 
-4. Run the backend server
+5. Run the backend server
 npm start
 
 ### Dashboard Setup
@@ -67,5 +69,5 @@ npm start
 
 ###
 Frontend will run at: http://localhost:3000
-Dashboard at: http://localhost:3001
-Backend at: http://localhost:3002
+# Dashboard at: http://localhost:3001
+# Backend at: http://localhost:3002
