@@ -42,7 +42,7 @@ Installation and Setup
 
 ### Clone the Repo:
 -git clone https://github.com/your-user-name/vestCore.git
-cd vestCore
+- cd vestCore
 
 ### Backend Setup
 1. cd backend
@@ -56,13 +56,16 @@ TOKEN_KEY=your-secret-key
 npm start
 
 ### Dashboard Setup
-cd ../dashboard
-npm install
-Start the React app:
-npm start
+1. cd ../dashboard
+2. npm install
+3. npm start
 
 ### Frontend Setup
-cd ../frontend
-npm install
-Start the React app:
-npm start
+1. cd ../frontend
+2. npm install
+3. npm start
+
+###
+Frontend will run at: http://localhost:3000
+Dashboard at: http://localhost:3001
+Backend at: http://localhost:3002
