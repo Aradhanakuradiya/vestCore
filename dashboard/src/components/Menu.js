@@ -21,9 +21,6 @@ const Menu = () => {
     const handleProfileClick = () => {
         setIsProfileDropdownOpen((prevState) => !prevState); 
     };
-   const handleSupport = ()=>{
-    window.location.href = "http://localhost:3000/support";
-   }
     const handleLogout = () => {
         alert("Logged out!");
        window.location.href = "http://localhost:3000/";
@@ -92,11 +89,6 @@ const Menu = () => {
                                 <Link to="/" style={{ textDecoration: "none" }}>
                                     <User className="mr-2 h-4 w-4" />  Profile <ChevronRight className="ml-auto h-4 w-4" />
                                 </Link>
-                            </li>
-                            <li>
-                              <button onClick={handleSupport}>
-                              <HelpCircle className="mr-2 h-4 w-4" /> Help & Support <ChevronRight className="ml-auto h-4 w-4" />
-                              </button>
                             </li>
                             <li>
                                 <button onClick={handleLogout}>
