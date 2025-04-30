@@ -15,6 +15,7 @@ Features
   ![Dashboard Preview](images/img2.png)
   ![Dashboard Preview](images/img3.png)
   ![Dashboard Preview](images/img4.png)
+   ![Dashboard Preview](images/img5.png)
 Technology Stack
 
 🚀 Frontend
