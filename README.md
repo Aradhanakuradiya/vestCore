@@ -14,13 +14,9 @@ Features
 - Profile Menu
 
 -    ![Dashboard Preview](images/img11.png)
-
--     ![Dashboard Preview](images/img4.png)
-
-  -Details of each share
-   ![Dashboard Preview](images/img5.png)
-  -Market Analysis
-  ![Dashboard Preview](images/img3.png)
+-    ![Dashboard Preview](images/img4.png)
+-  ![Dashboard Preview](images/img5.png)
+-  ![Dashboard Preview](images/img8.png)
   
 -Technology Stack
 
@@ -49,11 +45,11 @@ Installation and Setup
 cd vestCore
 
 2. Backend Setup
-cd backend
-npm install
+   cd backend
+   npm install
 
-Create a .env file in the backend directory.
-PORT=3002
+   Create a .env file in the backend directory.
+   PORT=3002
 MONGO_URI=your-mongodb-connection
 TOKEN_KEY=your-secret-key
 
