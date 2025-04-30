@@ -16,6 +16,7 @@ Features
 -    ![Dashboard Preview](images/img11.png)
 -    ![Dashboard Preview](images/img4.png)
 -  ![Dashboard Preview](images/img5.png)
+-  ![Dashboard Preview](images/img3.png)
 -  ![Dashboard Preview](images/img6.png)
   
 -Technology Stack
