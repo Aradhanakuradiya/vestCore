@@ -5,18 +5,19 @@ Features
 - User Authentication: Secure login and registration using JWT.
 - 📈  Market View
     Displays market data, stock prices and trends.
-- 📊 ByteVest Dashboard : 
--Buy & Sell Shares
--Holdings & Positions displays updates
--Order Management
--Add Funds using UPI or card
--Withdraw Funds
--Profile Menu
- 
-   ![Dashboard Preview](images/img11.png)
+- 📊 ByteVest Dashboard :
+- Buy & Sell Shares
+- Holdings & Positions displays updates
+- Order Management
+- Add Funds using UPI or card
+- Withdraw Funds
+- Profile Menu
 
-  ![Dashboard Preview](images/img4.png)
-   -Details of each share
+-    ![Dashboard Preview](images/img11.png)
+
+-     ![Dashboard Preview](images/img4.png)
+
+  -Details of each share
    ![Dashboard Preview](images/img5.png)
   -Market Analysis
   ![Dashboard Preview](images/img3.png)
