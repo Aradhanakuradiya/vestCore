@@ -94,6 +94,7 @@ Service	URL
 Frontend	http://localhost:3000
 Dashboard	http://localhost:3001
 Backend	http://localhost:3002
+![Screenshot 2025-04-30 191913](https://github.com/user-attachments/assets/337f1fae-4903-4f6f-b442-c9f7a5d46e7d)
 
 
 
