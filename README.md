@@ -6,15 +6,15 @@ Features
 - 📈  Market View
     Displays market data, stock prices and trends.
 - 📊 ByteVest Dashboard : 
-   -Buy & Sell Shares
-  -Holdings & Positions displays updates
-  -Order Management
-  -Add Funds using UPI or card
-  -Withdraw Funds
-  -Profile Menu
-  -Dashboard
+-Buy & Sell Shares
+-Holdings & Positions displays updates
+-Order Management
+-Add Funds using UPI or card
+-Withdraw Funds
+-Profile Menu
+ 
    ![Dashboard Preview](images/img11.png)
-  -Buy & Sell Shares
+
   ![Dashboard Preview](images/img4.png)
    -Details of each share
    ![Dashboard Preview](images/img5.png)
