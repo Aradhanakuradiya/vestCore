@@ -1,4 +1,4 @@
-![Dashboard Preview](img1.png)
+![Dashboard Preview](images/img1.png)
 **VestCore** is a company that has developed a suite of financial tools. One of its core products is **ByteVest**, a full-featured stock trading platform. This platform includes user authentication, fund management,  market data viewing, and a comprehensive trading dashboard.
 
 Features
@@ -12,9 +12,9 @@ Features
   Add Funds using UPI or card
   Withdraw Funds
   Profile Menu
-  ![Dashboard Preview](img2.png)
-  ![Dashboard Preview](img3.png)
-  ![Dashboard Preview](img4.png)
+  ![Dashboard Preview](images/img2.png)
+  ![Dashboard Preview](images/img3.png)
+  ![Dashboard Preview](images/img4.png)
 Technology Stack
 
 🚀 Frontend
