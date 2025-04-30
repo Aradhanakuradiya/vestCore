@@ -16,7 +16,7 @@ Features
 -    ![Dashboard Preview](images/img11.png)
 -    ![Dashboard Preview](images/img4.png)
 -  ![Dashboard Preview](images/img5.png)
--  ![Dashboard Preview](images/img8.png)
+-  ![Dashboard Preview](images/img6.png)
   
 -Technology Stack
 
@@ -40,29 +40,28 @@ Features
 
 Installation and Setup 
 
-1. Clone the Repo:
+### Clone the Repo:
 -git clone https://github.com/your-user-name/vestCore.git
 cd vestCore
 
-2. Backend Setup
-   cd backend
-   npm install
-
-   Create a .env file in the backend directory.
-   PORT=3002
+### Backend Setup
+1. cd backend
+2. npm install
+3. Create a .env file in the backend directory.
+PORT=3002
 MONGO_URI=your-mongodb-connection
 TOKEN_KEY=your-secret-key
 
-Run the backend server
+4. Run the backend server
 npm start
 
-3. Dashboard Setup
+### Dashboard Setup
 cd ../dashboard
 npm install
 Start the React app:
 npm start
 
-5. Frontend Setup
+### Frontend Setup
 cd ../frontend
 npm install
 Start the React app:
