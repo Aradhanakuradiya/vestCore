@@ -42,9 +42,8 @@ Features
 Installation and Setup 
 
 ### Clone the Repo:
--git clone https://github.com/your-user-name/vestCore.git
-- cd vestCore
-
+git clone https://github.com/your-username/vestCore.git
+cd vestCore
 ### Backend Setup
 1. cd backend
 2. npm install
@@ -52,7 +51,6 @@ Installation and Setup
  PORT=3002
  MONGO_URI=your-mongodb-connection
  TOKEN_KEY=your-secret-key
-
 5. Run the backend server
 npm start
 
