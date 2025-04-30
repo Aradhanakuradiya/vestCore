@@ -5,21 +5,23 @@ Features
 - User Authentication: Secure login and registration using JWT.
 - 📈  Market View
     Displays market data, stock prices and trends.
-- 📊 ByteVest Dashboard
-  Buy & Sell Shares
-  Holdings & Positions displays updates
-  Order Management
-  Add Funds using UPI or card
-  Withdraw Funds
-  Profile Menu
-  ![Dashboard Preview](images/img2.png)
-  
+- 📊 ByteVest Dashboard : 
+   -Buy & Sell Shares
+  -Holdings & Positions displays updates
+  -Order Management
+  -Add Funds using UPI or card
+  -Withdraw Funds
+  -Profile Menu
+  -Dashboard
    ![Dashboard Preview](images/img11.png)
-
+  -Buy & Sell Shares
   ![Dashboard Preview](images/img4.png)
-
+   -Details of each share
    ![Dashboard Preview](images/img5.png)
-Technology Stack
+  -Market Analysis
+  ![Dashboard Preview](images/img3.png)
+  
+-Technology Stack
 
 🚀 Frontend
 - React - Building fast, component-based UIs
@@ -42,7 +44,7 @@ Technology Stack
 Installation and Setup 
 
 1. Clone the Repo:
-git clone https://github.com/your-user-name/vestCore.git
+-git clone https://github.com/your-user-name/vestCore.git
 cd vestCore
 
 2. Backend Setup
@@ -68,12 +70,3 @@ cd ../frontend
 npm install
 Start the React app:
 npm start
-
-Developer
-
-Aradhana Kuradiya
-
-
-
-
-
