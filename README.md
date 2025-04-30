@@ -89,11 +89,6 @@ Dashboard
 cd ../dashboard
 npm start
 
-🔗 App URLs
-Service	URL
-Frontend	http://localhost:3000
-Dashboard	http://localhost:3001
-Backend	http://localhost:3002
 
 
 
