@@ -48,11 +48,8 @@ Installation and Setup
 1. cd backend
 2. npm install
 3. Create a .env file in the backend directory.
-###
-PORT=3002
-#
+ PORT=3002
  MONGO_URI=your-mongodb-connection
- 
  TOKEN_KEY=your-secret-key
 
 5. Run the backend server
@@ -69,6 +66,8 @@ npm start
 3. npm start
 
 ###
-Frontend will run at: http://localhost:3000
+Frontend will run at: http://localhost:3000 
+#
  Dashboard at: http://localhost:3001
+ #
  Backend at: http://localhost:3002
