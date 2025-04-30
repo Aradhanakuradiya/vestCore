@@ -42,7 +42,6 @@ Installation and Setup
 
 ### Clone the Repo:
 -git clone https://github.com/your-user-name/vestCore.git
-#
 - cd vestCore
 
 ### Backend Setup
@@ -51,9 +50,9 @@ Installation and Setup
 3. Create a .env file in the backend directory.
 ###
 PORT=3002
-###
+#
  MONGO_URI=your-mongodb-connection
- ###
+ 
  TOKEN_KEY=your-secret-key
 
 5. Run the backend server
