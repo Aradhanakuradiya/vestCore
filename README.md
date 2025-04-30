@@ -36,7 +36,8 @@
 - **Buy & Sell Shares**
 - **Holdings & Positions** display updates
 - **Order Management**
-- **Profile Menu** (Profile, Logout, etc.)
+- **Profile Menu** (Profile, Logout, etc.).
+  ![Dashboard Preview](img2.png)
 
 ### 📈  Market View (Frontend)
 - Displays market data, stock prices, and trends.
