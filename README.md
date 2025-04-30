@@ -12,8 +12,7 @@ Features
   Add Funds using UPI or card
   Withdraw Funds
   Profile Menu
-  ![Dashboard Preview](images/img2.png)
-  ![Dashboard Preview](images/img3.png)
+  ![Dashboard Preview](images/img2.png)   ![Dashboard Preview](images/img11.png)
   ![Dashboard Preview](images/img4.png)
    ![Dashboard Preview](images/img5.png)
 Technology Stack
