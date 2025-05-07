@@ -95,7 +95,7 @@ VestCore is a financial technology company offering a suite of advanced tools fo
 
 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/img1.png)
+![Dashboard Screenshot](images/dashboard.jpg)
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
