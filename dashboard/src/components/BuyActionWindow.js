@@ -57,10 +57,10 @@ const BuyActionWindow = ({ uid }) => {
       <div className="buttons">
         <span>Margin required ₹140.65</span>
         <div>
-          <Link className="btn btn-blue" onClick={handleBuyClick}>
+          <Link className="btn btn-blue button-group" onClick={handleBuyClick}>
             Buy
-          </Link>
-          <Link to="" className="btn btn-grey" onClick={handleCancelClick}>
+          </Link>&nbsp;&nbsp;
+          &nbsp;          <Link to="" className="btn btn-grey button-group" onClick={handleCancelClick}>
             Cancel
           </Link>
         </div>

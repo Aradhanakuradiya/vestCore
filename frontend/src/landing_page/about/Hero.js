@@ -1,49 +1,48 @@
+
 import React from "react";
 
 function Hero() {
   return (
-    <div className="container">
-      <div className="row p-5 mb-4 mt-5">
-        <h3 className="text-center ">
-          We introduced discount broking to India, revolutionizing the market.
-          <br></br>
-          We continue to lead the way, now pushing the boundaries of trading
-          technology.
-        </h3>
+    <div className="container hero-container">
+      <div className="row">
+        <div className="col">
+          <h3 className="hero-heading">
+            We introduced <span className="colored-highlight">discount broking</span> to India, revolutionizing the market.
+            <br />
+            We now lead the way in <span className="colored-highlight">trading technology innovation</span>.
+          </h3>
+        </div>
       </div>
-      <div className="row p-5 mt-5 border-top text-muted " style={{lineHeight:"1.8", fontSize:"1em"}} id="about-text">
-        <div className="col-6 p-5">
-          <p>
-            VestCore pioneered the discount broking model in India, transforming
+
+      <div className="row hero-section hero-border-top">
+        <div className="col-md-6">
+          <p className="hero-paragraph">
+            <span className="colored-highlight">VestCore</span> pioneered the discount broking model in India, transforming
             the trading landscape. We continue to innovate, now focusing on
-            cutting-edge technology. <br></br>Launched on August 15th, 2022,
-            VestCore was founded with the mission to eliminate the cost,
-            support, and technology barriers facing Indian traders and
-            investors.<br/> Our name, VestCore, reflects this vision.{" "}
+            cutting-edge technology.
+            <br />
+            Launched on <strong>August 15th, 2022</strong>, we were founded to remove cost,
+            support, and tech barriers faced by Indian traders and investors.
           </p>
-          <p>
-            We named the company VestCore, highlighting our focus on the core of
-            investing. VestCore was chosen as our name, signifying a solid, core
-            foundation for your investments.
+          <p className="hero-paragraph">
+            The name <strong>VestCore</strong> emphasizes our focus on the core of
+            investing — providing a solid foundation for your financial journey.
           </p>
-          <p>
-            Today, our disruptive pricing and proprietary technology have
-            positioned us as a leading stock broker in India. <br />
+          <p className="hero-paragraph">
+            Our <span className="colored-highlight">disruptive pricing</span> and in-house tech have positioned us as a leading
+            broker in India.
           </p>
         </div>
-        <div className="col-6 p-5">
-          <p>
-            Over 10 million clients utilize our robust investment platforms,
-            processing millions of daily orders and contributing to a
-            significant portion of India's retail trading volume.
+        <div className="col-md-6">
+          <p className="hero-paragraph">
+            Over <strong>10 million clients</strong> use our platforms, processing millions of daily
+            orders and contributing significantly to India's retail trading volume.
           </p>
-          <p>
-            We're dedicated to empowering investors through our extensive free
-            educational resources and vibrant online communities. <br />
-            Our fintech fund, Rainmatter, invests in promising startups to
-            foster the growth of Indian capital markets. We remain committed to
-            continuous innovation, with updates available on our blog and media
-            coverage.
+          <p className="hero-paragraph">
+            We empower investors with free educational resources and thriving communities.
+            <br />
+            Our fintech fund, <span className="colored-highlight">Rainmatter</span>, supports startups that grow India's capital
+            markets.
           </p>
         </div>
       </div>

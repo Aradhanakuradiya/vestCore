@@ -48,3 +48,300 @@ code {
 .btns{
   background: linear-gradient(to right, #7dcb96, #1bd763);
 }
+/* Hero.css */
+
+.hero-container {
+  background: linear-gradient(to right, #f9fafb, #eef2f7);
+  padding: 4rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.hero-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a237e;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-section {
+  padding: 3rem 1rem;
+}
+
+.hero-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #37474f;
+  margin-bottom: 1.5rem;
+}
+
+.colored-highlight {
+  color: #00bcd4; /* Cyan */
+  font-weight: 600;
+}
+
+.hero-border-top {
+  border-top: 2px solid #cfd8dc;
+}
+
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+
+/* Pricing.css */
+
+.pricing-container {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-header {
+  color: #1a237e;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pricing-description {
+  font-size: 1.05rem;
+  color: #37474f;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-link {
+  color: #d32f2f;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.pricing-link:hover {
+  text-decoration: underline;
+  color: #b71c1c;
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-amount {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.pricing-note {
+  color: #555;
+  font-size: 1rem;
+}
+
+
+
+/* Awards.css */
+
+.awards-section {
+  background: linear-gradient(to right, #f3f4f6, #ffffff);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.awards-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 1rem;
+}
+
+.awards-description {
+  font-size: 1.1rem;
+  color: #37474f;
+  margin-bottom: 1.5rem;
+}
+
+.awards-list p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.4rem 0;
+}
+
+.awards-img {
+  height: 400px;
+width: 400px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.press-logos {
+  margin-top: 2rem;
+  width: 90%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.press-logos:hover {
+  filter: grayscale(0%);
+}
+
+
+/* Stats.css */
+
+.stats-section {
+  background: linear-gradient(to right, #f7f9fc, #ffffff);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.stats-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 2rem;
+}
+
+.stats-subheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+.stats-text {
+  font-size: 1rem;
+  color: #5f6368;
+  line-height: 1.7;
+}
+
+.stats-img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stats-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: 600
+}
+
+
+/* Education.css */
+
+.education-section {
+  background: linear-gradient(to right, #eef2f7, #ffffff);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  margin-top: 3rem;
+}
+
+.education-img {
+  height: 380px;
+  width: 500px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-left: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.education-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b1f3b;
+  margin-bottom: 1.5rem;
+}
+
+.education-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.education-link {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  font-weight: 600;
+  color: #d32f2f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.education-link:hover {
+  color: #b71c1c;
+  text-decoration: underline;
+}
+
+
+/* Hero.css */
+
+.hero-section {
+  background: linear-gradient(to right, #f3f6fa, #ffffff);
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  margin-top: 3rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 3rem;
+}
+
+.hero-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.hero-image {
+  height: 160px;
+  width: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.hero-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  color: #5f6368;
+  line-height: 1.6;
+}

@@ -756,7 +756,6 @@ hr {
   color: rgb(105, 105, 105);
 }
 
-/* sudo selectors */
 .search:focus {
   outline: none;
 }
@@ -771,7 +770,6 @@ hr {
   cursor: move;
 }
 
-/* TODO */
 .list li::before {
   content: "";
   background: transparent;
@@ -845,3 +843,5 @@ hr {
   background-color: #37c45f; 
   transform: scale(1.05); 
 }
+
+

@@ -11,4 +11,4 @@ const PositionsSchema = new mongoose.Schema({
   isLoss: Boolean,
 });
 
-export { PositionsSchema }; // Use ESM export
+export { PositionsSchema }; 

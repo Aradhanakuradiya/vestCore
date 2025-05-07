@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-
-//import Apps from "./Apps";
 import Funds from "./Funds";
+import NiftyPage from "./NiftyPage"; 
+import SensexPage from "./SensexPage";
 import Holdings from "./Holdings";
 import { GeneralContextProvider } from "./GeneralContext";
 import Orders from "./Orders";
@@ -25,7 +25,8 @@ const Dashboard = () => {
           <Route path="/holdings" element={<Holdings />} />
           <Route path="/positions" element={<Positions />} />
           <Route path="/funds" element={<Funds />} />
-      
+          <Route path="/nifty" element={<NiftyPage />} />
+          <Route path="/sensex" element={<SensexPage />} />
         </Routes>
       </div>
     </div>

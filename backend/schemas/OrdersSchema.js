@@ -7,4 +7,4 @@ const OrdersSchema = new mongoose.Schema({
   mode: String,
 });
 
-export { OrdersSchema }; // Use ESM export
+export { OrdersSchema }; 

@@ -12,8 +12,6 @@ import AutoGraphSharpIcon from '@mui/icons-material/AutoGraphSharp';
 const Menu = () => {
     const [selectedMenu, setSelectedMenu] = useState(0);
     const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
-    const [isDarkMode, setIsDarkMode] = useState(false); 
-
     const handleMenuClick = (index) => {
         setSelectedMenu(index);
     };
@@ -26,22 +24,12 @@ const Menu = () => {
        window.location.href = "http://localhost:3000/";
     };
 
-    const toggleDarkMode = () => {
-        setIsDarkMode(prev => !prev);
-    }
+
 
     const menuClass = "menu";
     const activeMenuClass = "menu selected";
 
-    useEffect(() => {
-        if (isDarkMode) {
-            document.body.classList.add('dark');
-        } else {
-            document.body.classList.remove('dark');
-        }
-    }, [isDarkMode]);
-
-    return (
+     return (
         <div className={`menu-container ${isDarkMode ? 'dark' : ''}`}>
             {/* Logo */}
             <img src="logo512.png" style={{ height: "43px", width:"81px"}} alt="Logo" />
@@ -89,6 +77,11 @@ const Menu = () => {
                                 <Link to="/" style={{ textDecoration: "none" }}>
                                     <User className="mr-2 h-4 w-4" />  Profile <ChevronRight className="ml-auto h-4 w-4" />
                                 </Link>
+                            </li>
+                            <li>
+                              <button onClick={handleSupport}>
+                              <HelpCircle className="mr-2 h-4 w-4" /> Help & Support <ChevronRight className="ml-auto h-4 w-4" />
+                              </button>
                             </li>
                             <li>
                                 <button onClick={handleLogout}>

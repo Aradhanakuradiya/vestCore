@@ -1,0 +1,72 @@
+.nifty-page {
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .nifty-card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    max-width: 700px;
+    transition: transform 0.2s ease;
+  }
+  
+  .nifty-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .nifty-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 8px;
+  }
+  
+  .positive {
+    color: #2ecc71;
+    font-weight: bold;
+  }
+  
+  .negative {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .nifty-chart {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+  }
+  
+  .nifty-chart h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+    font-size: 1.5rem;
+  }
+  
+  /* Tooltip customization for Recharts */
+  .recharts-tooltip-label {
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  .recharts-tooltip-item {
+    color: #333;
+  }
+  
