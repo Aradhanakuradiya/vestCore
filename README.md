@@ -108,9 +108,16 @@ Frontend will run at: http://localhost:3000
 - **Holdings & Positions** display updates
 - **Order Management**
 - **Profile Menu** (Profile, Logout, etc.)
-
+  
 ### 📈  Market View (Frontend)
 - Displays market data, stock prices, and trends.
+  
+### 🧪 Testing
+This project uses Jest and React Testing Library for unit testing of React components.
+✅ Hero Component Test
+The Hero component is tested to ensure:
+It renders correctly.
+
 
   ---
 
