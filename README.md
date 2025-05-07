@@ -46,7 +46,7 @@ VestCore is a financial technology company offering a suite of advanced tools fo
 - Component renders successfully
 - Hero image exists with the correct alt and src attributes
 - Example Test Code:
-- ![Dashboard Screenshot](images/Screenshot.png)
+- ![Dashboard Screenshot](images/testCode.png)
                
 🛠️ Installation & Setup
 📦 Prerequisites
