@@ -46,19 +46,19 @@ VestCore is a financial technology company offering a suite of advanced tools fo
 - Component renders successfully
 - Hero image exists with the correct alt and src attributes
 - Example Test Code:
-- import React from 'react';
-- import { render, screen } from "@testing-library/react";
-- import "@testing-library/jest-dom";
-- import Hero from "../landing_page/home/Hero";
-- describe("Hero Component", () => {
--   test("renders hero image", () => {
--           render(<Hero />);
--               const heroImage = screen.getByAltText("Hero Image");
--                   expect(heroImage).toBeInTheDocument();
--                       expect(heroImage).toHaveAttribute('src', "media/images/dashboard1.jpg");
--                       });
--                   });
--               
+ import React from 'react';
+ import { render, screen } from "@testing-library/react";
+ import "@testing-library/jest-dom";
+ import Hero from "../landing_page/home/Hero";
+ describe("Hero Component", () => {
+   test("renders hero image", () => {
+           render(<Hero />);
+               const heroImage = screen.getByAltText("Hero Image");
+                   expect(heroImage).toBeInTheDocument();
+                       expect(heroImage).toHaveAttribute('src', "media/images/dashboard1.jpg");
+                       });
+                   });
+               
 🛠️ Installation & Setup
 📦 Prerequisites
 - Node.js and npm
