@@ -93,10 +93,11 @@ VestCore is a financial technology company offering a suite of advanced tools fo
 
 - Backend API: http://localhost:3002
 
-📷 Dashboard Preview
-
+📷 Preview
+![Dashboard Screenshot](images/img1.png)
 ![Dashboard Screenshot](images/dashboard.png)
 ![Dashboard Screenshot](images/sensex.png)
+![Dashboard Screenshot](images/img4.png)
 ![Dashboard Screenshot](images/buyWindow.png)
 ![Dashboard Screenshot](images/img6.png) ![Dashboard Screenshot](images/market.png)
 🤝 Contributing
