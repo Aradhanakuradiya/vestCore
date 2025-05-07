@@ -25,15 +25,13 @@ const Menu = () => {
     };
 
 
-
     const menuClass = "menu";
     const activeMenuClass = "menu selected";
 
      return (
-        <div>
+        <div className="menu-container">
             {/* Logo */}
-            <img src="logo512.png" style={{ height: "43px", width:"81px"}} alt="Logo" />
-
+           <img src="logo512.png" style={{ height: "43px", width:"81px"}} alt="Logo" />
             {/* Menu Items */}
             <div className="menus">
                 <ul>
@@ -78,6 +76,7 @@ const Menu = () => {
                                     <User className="mr-2 h-4 w-4" />  Profile <ChevronRight className="ml-auto h-4 w-4" />
                                 </Link>
                             </li>
+                           
                             <li>
                                 <button onClick={handleLogout}>
                                     <LogOut className="mr-2 h-4 w-4" /> Logout <ChevronRight className="ml-auto h-4 w-4" />
