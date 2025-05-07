@@ -1,174 +1,138 @@
-![Dashboard Preview](images/img1.png)
-**VestCore** is a company that has developed a suite of financial tools. One of its core products is **ByteVest**, a full-featured stock trading platform. This platform includes user authentication, fund management,  market data viewing, and a comprehensive trading dashboard.
+VestCore
+VestCore is a financial technology company offering a suite of advanced tools for retail and professional investors. One of its flagship products is ByteVest, a robust stock trading platform that provides secure user authentication, real-time market data, order and fund management, and a seamless dashboard experience.
 
-<<<<<<< HEAD
-Features
-- User Authentication: Secure login and registration using JWT.
-- 📈  Market View
-    Displays market data, stock prices and trends.
-- 📊 ByteVest Dashboard :
-- Buy & Sell Shares
-- Holdings & Positions displays updates
-- Order Management
-- Add Funds using UPI or card
-- Withdraw Funds
-- Profile Menu
+🚀 Features
+🔒 User Authentication
+Secure registration and login using JWT (JSON Web Tokens)
 
--    ![Dashboard Preview](images/img11.png)
--    ![Dashboard Preview](images/img4.png)
--  ![Dashboard Preview](images/img5.png)
--  ![Dashboard Preview](images/img3.png)
--  ![Dashboard Preview](images/img6.png)
-  
--Technology Stack
+Password hashing with bcrypt
 
+📈 Market View
+Real-time market data
+
+Stock prices and performance trends
+
+📊 ByteVest Dashboard
+Buy and sell shares
+
+Track holdings and positions
+
+Manage orders
+
+Add and withdraw funds via UPI or card
+
+Access profile and logout through a responsive profile menu
+
+🖥️ Dashboard UI
+Interactive and intuitive user interface
+
+Component-driven architecture with React
+
+🧰 Technology Stack
 🚀 Frontend
-- React - Building fast, component-based UIs
-- React Router - Routing
-- Material-UI – UI components and styling.
-- React Router DOM – Client-side routing between pages.
-- Axios – API requests to the backend.
-- Chart.js / Recharts – for visualizing market data.
+React – Component-based UI development
+
+React Router DOM – Client-side routing
+
+Material-UI – Pre-built UI components and styling
+
+Axios – HTTP client for API communication
+
+Chart.js / Recharts – Data visualization tools
 
 ⚙️ Backend
-- Node.js – Runtime environment.
-- Express.js – RESTful API development.
-- MongoDB – NoSQL database for storing user data, orders, positions, holdings, and funds.
-- Mongoose – MongoDB object modeling.
-- JWT – Secure token-based user authentication.
-- bcrypt – Password hashing.
-- dotenv – Environment variable management.
-- cors – Cross-origin support for frontend-backend interaction.
+Node.js – JavaScript runtime environment
 
-Installation and Setup 
+Express.js – RESTful API framework
 
-### Clone the Repo:
-git clone https://github.com/your-username/vestCore.git
-cd vestCore
-### Backend Setup
-1. cd backend
-2. npm install
-3. Create a .env file in the backend directory.
- PORT=3002
- MONGO_URI=your-mongodb-connection
- TOKEN_KEY=your-secret-key
-5. Run the backend server
-npm start
+MongoDB – NoSQL database for persisting application data
 
-### Dashboard Setup
-1. cd ../dashboard
-2. npm install
-3. npm start
+Mongoose – Object Data Modeling (ODM) for MongoDB
 
-### Frontend Setup
-1. cd ../frontend
-2. npm install
-3. npm start
+JWT – Secure token-based authentication
 
-###
-Frontend will run at: http://localhost:3000 
-#
- Dashboard at: http://localhost:3001
- #
- Backend at: http://localhost:3002
-=======
-## 🔧 Tech Stack
+bcrypt – Password encryption
 
-### 🚀 Frontend
-- **React** – Building fast, component-based UIs.
-- **Material-UI** – UI components and styling.
-- **React Router DOM** – Client-side routing between pages.
-- **Axios** – API requests to the backend.
-- **Chart.js / Recharts** – (if used) for visualizing market data.
+dotenv – Environment variable management
 
-### ⚙️ Backend
-- **Node.js** – Runtime environment.
-- **Express.js** – RESTful API development.
-- **MongoDB** – NoSQL database for storing user data, orders, positions, holdings, and funds.
-- **Mongoose** – MongoDB object modeling.
-- **JWT** – Secure token-based user authentication.
-- **bcrypt** – Password hashing.
-- **dotenv** – Environment variable management.
-- **cors** – Cross-origin support for frontend-backend interaction.
+cors – Cross-origin resource sharing
 
----
+🧪 Testing
+This project uses Jest and React Testing Library for unit testing React components.
 
-## ✨ Features
-
-### 🔒 Authentication
-- Secure signup and login using **JWT**
-- User sessions managed securely
-
-### 💸 Fund Management
-- **Add Funds** using UPI or card
-- **Withdraw Funds** 
-
-### 📊 ByteVest Dashboard
-- **Buy & Sell Shares**
-- **Holdings & Positions** display updates
-- **Order Management**
-- **Profile Menu** (Profile, Logout, etc.)
-  
-### 📈  Market View (Frontend)
-- Displays market data, stock prices, and trends.
-  
-### 🧪 Testing
-This project uses Jest and React Testing Library for unit testing of React components.
 ✅ Hero Component Test
-The Hero component is tested to ensure:
-It renders correctly.
+Ensures:
 
+Component renders successfully
 
-  ---
+Hero image exists with the correct alt and src attributes
 
-## 🛠️ Installation
+Example Test Code:
+import React from 'react';
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
+import Hero from "../landing_page/home/Hero";
 
-### Prerequisites
-- **Node.js** and **npm** installed
-- **MongoDB** (local or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
+describe("Hero Component", () => {
+    test("renders hero image", () => {
+        render(<Hero />);
+        const heroImage = screen.getByAltText("Hero Image");
+        expect(heroImage).toBeInTheDocument();
+        expect(heroImage).toHaveAttribute('src', "media/images/dashboard1.jpg");
+    });
+});
+🛠️ Installation & Setup
+📦 Prerequisites
+Node.js and npm
 
-### Steps
+MongoDB (local or hosted, e.g., MongoDB Atlas)
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Aradhanakuradiya/vestCore.git
+📥 Clone the Repository
+git clone https://github.com/your-user-name/vestCore.git
 cd vestCore
-
-2. Configure Environment Variables:
-Create a .env file in the backend directory.
+🔐 Configure Environment Variables
+Create a .env file in the backend directory with the following values:
 PORT=3002
-MONGO_URI=your-mongodb-connection
+MONGO_URI=your-mongodb-connection-string
 TOKEN_KEY=your-secret-key
-
-3. Install Dependencies
-Backend
+📦 Install Dependencies
+# Backend
 cd backend
 npm install
 
-Frontend
+# Frontend
 cd ../frontend
 npm install
 
-Dashboard
+# Dashboard
 cd ../dashboard
 npm install
-
-4. Start the Applications:
-Backend
+▶️ Start the Applications
+# Start Backend
 cd backend
 npm start
 
-Frontend
+# Start Frontend
 cd ../frontend
 npm start
 
-Dashboard
+# Start Dashboard
 cd ../dashboard
 npm start
+🌐 Access Points
+Frontend: http://localhost:3000
 
+Dashboard: http://localhost:3001
 
+Backend API: http://localhost:3002
 
+📷 Dashboard Preview
 
+![Dashboard Screenshot](images/img1.png)
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+📄 License
+This project is licensed under the MIT License.
 
->>>>>>> 8810244 (Add dashboard screenshot to README)
+Feel free to reach out with questions or ideas via GitHub Issues or Discussions!
