@@ -30,7 +30,7 @@ const Menu = () => {
     const activeMenuClass = "menu selected";
 
      return (
-        <div className={`menu-container ${isDarkMode ? 'dark' : ''}`}>
+        <div>
             {/* Logo */}
             <img src="logo512.png" style={{ height: "43px", width:"81px"}} alt="Logo" />
 
@@ -77,11 +77,6 @@ const Menu = () => {
                                 <Link to="/" style={{ textDecoration: "none" }}>
                                     <User className="mr-2 h-4 w-4" />  Profile <ChevronRight className="ml-auto h-4 w-4" />
                                 </Link>
-                            </li>
-                            <li>
-                              <button onClick={handleSupport}>
-                              <HelpCircle className="mr-2 h-4 w-4" /> Help & Support <ChevronRight className="ml-auto h-4 w-4" />
-                              </button>
                             </li>
                             <li>
                                 <button onClick={handleLogout}>
