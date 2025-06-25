@@ -1,4 +1,4 @@
-VestCore
+
 VestCore is a financial technology company offering a suite of advanced tools for retail and professional investors. One of its flagship products is ByteVest, a robust stock trading platform that provides secure user authentication, real-time market data, order and fund management, and a seamless dashboard experience.
 
 🚀 Features
