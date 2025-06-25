@@ -103,7 +103,4 @@ VestCore is a financial technology company offering a suite of advanced tools fo
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-📄 License
-This project is licensed under the MIT License.
-
 Feel free to reach out with questions or ideas via GitHub Issues or Discussions!
